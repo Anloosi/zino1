@@ -173,6 +173,143 @@ border-radius: 5px;
 }
 
 
+/* INPUT ABOUT AND FEATURE SECTION */
+/* INPUT ABOUT AND FEATURE SECTION */
+/* INPUT ABOUT AND FEATURE SECTION */
+
+.input-section {
+    background-color: var(--dark-gray);
+}
+
+.input-box {
+background-color: var(--dark-violet);
+max-width: 100rem;
+margin: 0 auto;
+padding: 5rem;
+background-image: url(./images/pngwing.com.png);
+border: 1px solid transparent;
+border-radius: .5rem;
+transform: translateY(-80%);
+
+}
+
+.input-box form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-box form input{
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    border: transparent;
+    border-radius: .5rem;
+    margin-right: 2rem;
+    outline: none;
+}
+
+.input-box form .link-btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+    width: 20%;
+    background-color: var(--cyan);
+    border: transparent;
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1.2rem;
+
+}
+
+
+/* ABOUT SECTION */
+.about {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--dark-violet);
+}
+
+
+/* FEATURES SECTION */
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+.feature::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 50%;
+  height: .5rem;
+  background-color: var(--cyan);
+  /* z-index: 0; */
+
+}
+
+.feature-box {
+    position: relative;
+    background-color: var(--white);
+    padding: 7rem 3rem 3rem 3rem;
+    border-radius: .5rem;
+    z-index: 1;
+}
+
+.feature-box:not(:last-child){
+    margin-right: 2.5rem;
+}
+
+
+.feature-image img{
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.feature-image img{
+  
+    background-color: var(--dark-violet);
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -3.5rem;
+    left: 2.5rem;
+
+}
+
+.feature-box h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: var(--dark-violet);
+    padding-bottom: 2.5rem;
+
+}
+
+.box-2 {
+    margin-top: 4%;
+}
+
+.box-3 {
+    margin-top: 8%;
+}
+
+
 
 
 
@@ -193,6 +330,19 @@ border-radius: 5px;
     line-height: 4.5rem;
 }
 
+/* ABOUT SECTION */
+.about {
+    width: 100%;
+}
+
+.about h2 {
+    font-size: 3rem;
+}
+
+/* FEATURE SECTION */
+.feature-box {
+    padding: 7rem 2rem 3rem 2rem;
+}
 }
 
 
